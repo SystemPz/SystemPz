@@ -1,0 +1,34 @@
+
+atom@atom-Lenovo-ideapad-320-15ISK:~/PROJECT/CECyTES_CUESTIONARIO$ git branch
+* desarrollo
+atom@atom-Lenovo-ideapad-320-15ISK:~/PROJECT/CECyTES_CUESTIONARIO$ git add .
+atom@atom-Lenovo-ideapad-320-15ISK:~/PROJECT/CECyTES_CUESTIONARIO$ git status
+En la rama desarrollo
+Tu rama está actualizada con 'origin/desarrollo'.
+
+Cambios a ser confirmados:
+  (usa "git reset HEAD <archivo>..." para sacar del área de stage)
+
+        nuevo archivo:  cuestionarios-server/src/main/java/mx/edu/cecyte/cuestionarios/model/Periodos.java
+        modificado:     cuestionarios-server/src/main/java/mx/edu/cecyte/cuestionarios/model/SurveySchool.java
+        modificado:     cuestionarios-server/src/main/java/mx/edu/cecyte/cuestionarios/queries/SurveySchoolQueries.java
+        nuevo archivo:  cuestionarios-server/src/main/java/mx/edu/cecyte/cuestionarios/repo/PeriodosRepository.java
+        modificado:     cuestionarios-server/src/main/java/mx/edu/cecyte/cuestionarios/repo/surveyschool/SurveySchoolRepository.java
+        modificado:     cuestionarios-server/src/main/java/mx/edu/cecyte/cuestionarios/shared/Messages.java
+
+atom@atom-Lenovo-ideapad-320-15ISK:~/PROJECT/CECyTES_CUESTIONARIO$ git commit -m "Cambios de consulta por periodos."[desarrollo 3a51b49] Cambios de consulta por periodos.
+ 6 files changed, 133 insertions(+), 11 deletions(-)
+ create mode 100644 cuestionarios-server/src/main/java/mx/edu/cecyte/cuestionarios/model/Periodos.java
+ create mode 100644 cuestionarios-server/src/main/java/mx/edu/cecyte/cuestionarios/repo/PeriodosRepository.java
+atom@atom-Lenovo-ideapad-320-15ISK:~/PROJECT/CECyTES_CUESTIONARIO$ git push
+fatal: unable to access 'https://github.com/marlettorres/CECyTES_CUESTIONARIO.git/': Could not resolve host: github.com
+atom@atom-Lenovo-ideapad-320-15ISK:~/PROJECT/CECyTES_CUESTIONARIO$ git push origin desarrollo
+Contando objetos: 21, listo.
+Delta compression using up to 4 threads.
+Comprimiendo objetos: 100% (17/17), listo.
+Escribiendo objetos: 100% (21/21), 3.24 KiB | 552.00 KiB/s, listo.
+Total 21 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas: 100% (11/11), completed with 11 local objects.
+To https://github.com/marlettorres/CECyTES_CUESTIONARIO.git
+   a4192df..3a51b49  desarrollo -> desarrollo
+atom@atom-Lenovo-ideapad-320-15ISK:~/PROJECT/CECyTES_CUESTIONARIO$ 
